@@ -11,5 +11,5 @@ jobs:
       - run: |
           docker build -t laioffercatherine/around .
           docker login -u="$DOCKERHUB_USERNAME" -p="$DOCKERHUB_PASSWORD"
-        docker push laioffercatherine/around
+          docker push laioffercatherine/around
 
